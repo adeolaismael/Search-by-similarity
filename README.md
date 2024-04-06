@@ -1,38 +1,38 @@
-## Installation des Dépendances
+## Installing dependencies
 
-Pour installer les dépendances nécessaires, suivez ces étapes :
+To install the necessary dependencies, follow these steps:
 
-1. Ouvrez votre terminal.
+1. Open your terminal.
 
-2. Déplacez-vous dans le dossier `FASEP` en utilisant la commande :
+2. Move to the `FASEP` folder using the command :
 
    ```
-   cd chemin/vers/FASEP
+   cd path/to/FASEP
    ```
 
-3. Exécutez la commande suivante pour installer les dépendances à partir du fichier `requirements.txt` :
+3. Run the following command to install dependencies from the `requirements.txt` file:
 
    ```
    pip install -r requirements.txt
    ```
 
-## Exécution des Tests
+## Running tests
 
-Une fois l'installation terminée, procédez comme suit pour exécuter les tests :
+Once installation is complete, proceed as follows to run tests:
 
-1. Déplacez-vous dans le dossier `tests` :
+1. Move to the `tests` folder:
 
    ```
    cd tests
    ```
 
-2. Dans le fichier `test.py`, remplacez le chemin d'accès contenu dans la variable `test_file_path` par 
+2. In the `test.py` file, replace the path contained in the `test_file_path` variable with 
 
-le chemin d'accès vers le fichier `Exemple FASEP.pptx` sur votre ordinateur. (Vous aurez peut-être à changer le "/" en "\")
+the path to the file `Example FASEP.pptx` on your computer. (You may need to change the "/" to "\").
 
-Enregistrez les modifications.
+Save your changes.
 
-3. Exécutez les tests en utilisant `pytest` :
+3. Run the tests using `pytest` :
 
    ```
    pytest test.py
